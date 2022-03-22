@@ -1,0 +1,26 @@
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+
+.btn{
+padding: 1rem 2rem ;
+border: 1px solid black;
+border-radius: 15px;
+background-color: chocolate;
+transition: all 0.4s;
+color: black;
+
+&:hover{
+    color: white;
+    border:1px solid  white;
+}
+}
+
+section{
+    margin-top: 10rem;
+}
+
+.window__scroll{
+    background:linear-gradient(rgb(0, 102, 128),rgb(26, 112, 83)) ;
+}
